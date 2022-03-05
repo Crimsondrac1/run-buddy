@@ -156,11 +156,12 @@ section {
 /* End Hero Style */
 
 /* Intro settings */
-.intro {
+/* .intro {
     text-align: center;
-}
+} */
 
 .intro p {
+    text-align: center;
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
@@ -170,7 +171,7 @@ section {
 
 /* Steps settings */
 .steps {
-    text-align: center;
+    /* text-align: center; */
     background: #fce138;
 }
 
@@ -204,10 +205,14 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0px auto 35px auto;
+    width: 50%;
+    /* margin-bottom: 35px; */
+    /* padding: 0 100px 20px 100px; */
     border-bottom: 3px solid;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .primary-border {
@@ -220,7 +225,7 @@ section {
 
 /* Trainers section */
 .trainers {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .trainer {
@@ -267,9 +272,13 @@ section {
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
 /* Reach out Styles */
 .contact {
-    text-align: center;
+    /* text-align: center; */
     background: #024e76;
 }
 
